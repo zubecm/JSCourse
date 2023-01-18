@@ -1,18 +1,8 @@
-'use strict';
-
-let number = 5;
-const leftBorderWidth = 1;
-
-number = 10;
-console.log(number);
-
 const obj = {
-    a: 50
+    'a': 1,
+    'b': 2
 };
+const c = 3;
+obj[c] = 5;
 
-obj.a = 10;
-
-console.log(obj);
-
-var name = 'Ivan';
-
+console.log(obj[3])
