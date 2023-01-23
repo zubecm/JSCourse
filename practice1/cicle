@@ -1,0 +1,16 @@
+const lines = 5;
+let result = '';
+ 
+for (let i = 0; i < lines+1; i++){
+	for(let k = 4; k >= i; k--){
+		result +=' ';
+	}
+ 
+	result += '*';
+	for(let j = 0; j < i; j++){
+		result += '**';
+	}
+ 		
+	result += '\n';
+ 
+}
